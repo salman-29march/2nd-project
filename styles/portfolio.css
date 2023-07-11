@@ -3,6 +3,7 @@ nav{
     display:flex;
     justify-content:space-between ;
     align-items: center;
+    margin: 0 200px;
 }
 /* common shared styles */
 body{
@@ -36,5 +37,19 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: gray;
+    color: rgb(28, 27, 27);
+}
+/* header related style */
+.header{
+    background-color: rgb(232, 225, 225);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items:center ;
+}
+/* porfile take amra banner er modde set korci */
+.banner .profile-pic{
+   width: 500px;
+    
 }
